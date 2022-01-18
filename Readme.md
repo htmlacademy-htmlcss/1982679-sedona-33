@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Алина Ткаченко](https://up.htmlacademy.ru/htmlcss/33/user/1982679).
-* Наставник: `Дмитрий Корбут`.
+* Наставник: [Дмитрий Корбут](https://htmlacademy.ru/profile/korbutds).
 
 ---
 
