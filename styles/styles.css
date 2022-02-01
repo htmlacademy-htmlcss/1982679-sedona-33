@@ -1,0 +1,220 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+  }
+  body {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+    background-color: #FFFFFF;
+  }
+  .navigation-link {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    color: #333333;
+    background-color: #FFFFFF; 
+  }
+  .button-navigation {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px; 
+    line-height: 20px;
+    text-align: center; 
+    text-transform: uppercase;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+    background-color: #756257;
+  }
+  .slogan {
+    background-color: #333333;
+    background-image: url("../images/background/index-background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  .description-Sedona {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 30px; 
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .description-reason {
+    line-height: 36px;
+    text-align: center;
+  }
+  .real-town-main {
+    color: #FFFFFF;
+    background-color: #83B3D3;
+    text-align: center; 
+  }
+  .real-town-title {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 24px; 
+    line-height: 28px; 
+    text-transform: uppercase;
+  }
+  .number {
+    font-size: 18px; 
+    line-height: 21px;  
+  }
+  .real-town-description {
+    font-size: 18px; 
+    line-height: 21px;  
+  }
+  .recommendation {
+    text-align: center;   
+  }
+  .recommendation-item-housing {
+    background-color: hsl(204 48% 67% / 0.2); 
+  }
+  .recommendation-item-souvenirs {
+    background-color: hsl(204 48% 67% / 0.2); 
+  } 
+  .recommendation-title {
+    font-family: inherit;  
+    font-weight: 700;
+    font-size: 24px; 
+    line-height: 28px; 
+    text-transform: uppercase; 
+  }
+  .recommendation-description {
+    font-size: 18px; 
+    line-height: 21px;  
+  }
+  .attraction-main {
+    color: #FFFFFF;
+    background-color: #83B3D3;
+    text-align: center;  
+  }
+  .attraction-title {
+    font-family: inherit;  
+    font-weight: 700;
+    font-size: 24px; 
+    line-height: 28px;
+    text-transform: uppercase;  
+  }
+  .attraction-description {
+    font-size: 18px; 
+    line-height: 21px;  
+  }
+  .advantages-item-area {
+    background-color:hsl(204 48% 67% / 0.12);
+    text-align: center;
+  }
+  .advantages-item-road {
+    background-color: hsl(204 48% 67% / 0.2);
+    text-align: center;
+  }
+  .advantages-item-few-tourists {
+    background-color: hsl(204 48% 67% / 0.12);
+    text-align: center;
+  }
+  .advantages-title {
+    font-family: inherit;  
+    font-weight: 700;
+    font-size: 24px; 
+    line-height: 28px; 
+    text-transform: uppercase; 
+  }
+  .advantages-description {
+    font-size: 18px; 
+    line-height: 21px;  
+  }
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .finding-hotel {
+    text-align: center;
+  }
+  .finding-hotel-title {
+    font-family: inherit;  
+    font-weight: 700;
+    font-size: 30px; 
+    line-height: 36px; 
+    text-transform: uppercase;  
+  }
+  .button-finding-hotel {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 20px; 
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #756257;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .newsletter {
+    background-color: #333333;
+    background-image: url("../images/background/newsletter-background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  .newsletter-title {
+    font-family: inherit;  
+    font-weight: 700;
+    font-size: 30px; 
+    line-height: 36px;
+    color:#FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .newsletter-description {
+    font-family: inherit;
+    color:#FFFFFF;
+    text-align: center;
+  }
+  .newsletter-form {
+    font-family: inherit;
+    color:#FFFFFF;
+    text-align: center;
+  }
+  .field {
+    font-size: 18px; 
+    line-height: 26px;
+    color: #000000;
+  }
+  .newsletter-button {
+    font-family: inherit;  
+    font-weight: 700;
+    font-size: 20px; 
+    line-height: 26px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #83B3D3;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .footer-contacts-number {
+    font-size: 40px; 
+    line-height: 40px;
+    text-align: center;
+  }
+
