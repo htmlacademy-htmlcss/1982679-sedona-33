@@ -35,7 +35,6 @@ body {
 }
 
 .navigation-link {
-  font-family: inherit;
   font-weight: 700;
   font-size: 20px;
   text-align: center;
@@ -46,7 +45,6 @@ body {
 }
 
 .button-navigation {
-  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -121,7 +119,6 @@ body {
 }
 
 .button-finding-hotel {
-  font-family: inherit;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -138,27 +135,17 @@ body {
   background-image: url("../images/background/newsletter-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-}
-
-.newsletter-title {
-  color: #FFFFFF;
-}
-
-.newsletter-description {
-  font-family: inherit;
   color: #FFFFFF;
   text-align: center;
 }
 
 .newsletter-form {
-  font-family: inherit;
   color: #FFFFFF;
   text-align: center;
   border-radius: 10px;
 }
 
 .field {
-  font-family: inherit;
   font-size: 18px;
   line-height: 26px;
   color: #000000;
@@ -169,12 +156,10 @@ body {
 }
 
 .newsletter-button {
-  font-family: inherit;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
   color: #FFFFFF;
-  text-align: center;
   background-color: #83B3D3;
   text-decoration: none;
   text-transform: uppercase;
@@ -184,14 +169,12 @@ body {
 }
 
 .footer-contacts-number {
-  font-family: inherit;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
 }
 
 .filter {
-  font-family: inherit;
   color: #FFFFFF;
   background-color: #333333;
   background-image: url("../images/background/catalog-background.jpg");
@@ -200,31 +183,25 @@ body {
 }
 
 .filter-title {
-  font-family: inherit;
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
 }
 
 .breadcrumbs {
-  font-family: inherit;
   font-size: 16px;
   line-height: 21px;
 }
 
 .catalog-filter-title {
-  font-family: inherit;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
-  text-align: left;
 }
 
 .control-input {
-  font-family: inherit;
   font-size: 18px;
   line-height: 23px;
-  text-align: left;
 }
 
 .slider {
@@ -291,7 +268,6 @@ body {
 }
 
 .button-apply {
-  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
@@ -304,7 +280,6 @@ body {
 }
 
 .reset {
-  font-family: inherit;
   font-size: 18px;
   line-height: 23px;
   text-align: center;
@@ -314,26 +289,20 @@ body {
 }
 
 .result {
-  font-family: inherit;
   font-weight: 700;
   font-size: 30px;
   line-height: 39px;
-  text-align: left;
 }
 
 .select-control {
-  font-family: inherit;
   font-size: 18px;
   line-height: 23px;
-  text-align: left;
 }
 
 .hotel-card-title {
-  font-family: inherit;
   font-size: 24px;
   line-height: 31px;
   font-weight: 700;
-  text-align: left;
   color: #000000;
 }
 
@@ -342,14 +311,11 @@ body {
 }
 
 .hotel-card-information {
-  font-family: inherit;
   font-size: 18px;
   line-height: 23px;
-  text-align: left;
 }
 
 .hotel-card-button {
-  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
@@ -365,12 +331,11 @@ body {
   background-color: #83B3D3;
 }
 
-.favourites {
+.chosen {
   background-color: #7DB54F;
 }
 
 .rating {
-  font-family: inherit;
   font-size: 16px;
   line-height: 21px;
   text-align: center;
@@ -392,7 +357,6 @@ body {
 }
 
 .button-pagination-show-more {
-  font-family: inherit;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -406,7 +370,6 @@ body {
 }
 
 .pagination-link {
-  font-family: inherit;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -430,10 +393,8 @@ body {
 }
 
 .number-card {
-  font-family: inherit;
   font-size: 18px;
   line-height: 23px;
-  text-align: left;
   background-color: #E5E5E5;
   border-radius: 4px;
 }
@@ -444,7 +405,6 @@ body {
 }
 
 .newsletter-catalog-description {
-  font-family: inherit;
   color: #000000;
   text-align: center;
 }
