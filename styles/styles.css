@@ -55,24 +55,13 @@ body {
   border-radius: 4px;
 }
 
-.slogan1 {
+.slogan {
   background-color: #333333;
-  background-image: url("../images/background/index-background.jpg");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+  background-image: url("../images/background/decor-background.svg"), url("../images/background/index-background.jpg");
+  background-size: 100% auto, 100% auto;
+  background-position: center bottom, center bottom;
+  background-repeat: no-repeat, no-repeat;
   text-align: center;
-}
-
-.slogan2 {
-  background-image: url("../images/background/decor-background.svg");
-  background-position: center bottom;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-}
-
-.benefits {
-  text-align: center;
-  font-family: inherit;
 }
 
 .title-section {
@@ -99,11 +88,13 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .description-block {
   font-size: 18px;
   line-height: 21px;
+  text-align: center;
 }
 
 .item-color {
@@ -140,7 +131,6 @@ body {
 }
 
 .newsletter-form {
-  color: #FFFFFF;
   text-align: center;
   border-radius: 10px;
 }
