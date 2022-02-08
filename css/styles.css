@@ -51,6 +51,10 @@ body {
   margin: 0 auto;
 }
 
+.navigation-logo {
+  margin-right: 30px;
+}
+
 .navigation-list {
   width: 460px;
   margin: 0;
@@ -92,6 +96,11 @@ body {
   margin: 0 auto;
 }
 
+.page-container-catalog {
+  width: 1060px;
+  margin: 0 auto;
+}
+
 .slogan {
   background-color: #333333;
   background-image: url("/images/background/decor-background.svg"), url("/images/background/index-background.jpg");
@@ -103,8 +112,8 @@ body {
 
 .description {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  margin: 0 auto;
 
   text-align: center;
 }
@@ -183,8 +192,8 @@ body {
 
 .finding-hotel {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  margin: 0 auto;
 
   text-align: center;
 }
@@ -203,8 +212,8 @@ body {
 
 .newsletter-main {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  margin: 0 auto;
   width: 100%;
 
   background-color: #333333;
@@ -245,14 +254,15 @@ body {
 
 .page-footer-container {
   display: flex;
+  flex-direction: column;
   width: 1200px;
   margin: 0 auto;
-  flex-wrap: wrap;
 }
 
 .footer-navigation {
   display: flex;
   justify-content: space-evenly;
+  align-items: baseline;
 
   width: 1200px;
   margin: 0;
@@ -288,6 +298,10 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
+}
+
+.catalog-filter {
+  display: flex;
 }
 
 .control-input {
@@ -407,6 +421,17 @@ body {
   line-height: 23px;
 }
 
+.sorting {
+  display: flex;
+  width: ;
+
+}
+
+.hotel-search-results {
+  display: flex;
+  flex-direction: column;
+}
+
 .hotel-card-title {
   font-size: 24px;
   line-height: 31px;
@@ -466,6 +491,10 @@ body {
   line-height: 21px;
   text-align: center;
   background-color: #F2F2F2;
+}
+
+.pagination {
+  display: flex;
 }
 
 .button-pagination-show-more {

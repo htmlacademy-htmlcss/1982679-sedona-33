@@ -40,7 +40,10 @@
     </nav>
    </header>
 
-   <main class="main-inner">
+   <main class="main-inner main-container">
+
+    <div class="page-container-catalog">
+
     <h1 class="visually-hidden">Гостиницы Седоны</h1>
 
      <section class="filter">
@@ -112,6 +115,7 @@
       
      <section class="catalog">
       <h2 class="visually-hidden">Каталог</h2>
+       <div class="sorting">
        <p class="result">Найдено гостиниц: 38</p>
 
        <select class="select-control" aria-label="Сортировка">
@@ -129,6 +133,9 @@
        <a class="button" href="#">
         <span class="visually-hidden">Показать список</span>
        </a>
+       </div>
+
+       <div class="hotel-search-results">
 
        <ul class="hotel-list style-list">
 
@@ -231,7 +238,11 @@
 
        <button class="button-pagination-show-more" type="button">Загрузить ещё</button>
         
-       <ul class="pagination style-list">
+       </div>
+
+       <div class="pagination">
+
+       <ul class="pagination-list style-list">
         <li class="pagination-item">
          <a class="pagination-link pagination-current">1</a>
         </li>
@@ -259,10 +270,16 @@
         <option value="expensive">Все</option>
        </select>
 
+       </div>
+
      </section>
+
+    </div>
    </main>
 
    <footer class="page-footer">
+
+    <div class="page-footer-container">
 
     <section class="newsletter-catalog">
      <h2 class="visually-hidden">Рассылка полезной информации</h2>
@@ -275,6 +292,8 @@
        </button>
       </form>
     </section>
+
+    <div class="footer-navigation">
 
     <section class="footer-social">
      <h2 class="visually-hidden">Социальные сети</h2>
@@ -308,6 +327,11 @@
        <img src="images/logo_htmlacademy.svg" width="115" height="33" alt="Логотип htmlacademy">
       </a>
     </section>
+
+    </div>
+
+    </div>
+
   </footer>
     
   </body>
