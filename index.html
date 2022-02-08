@@ -2,7 +2,7 @@
 <html lang="ru">
  <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
   <title>Sedona</title>
  </head>
   <body>
@@ -42,7 +42,9 @@
 
    </header>
 
-   <main class="main-index">
+   <main class="main-index main-container">
+
+    <div class="page-container">
 
      <section class="slogan">
       <h1 class="visually-hidden">Городок Седона</h1>
@@ -67,15 +69,15 @@
      <section class="recommendation">
       <h2 class="visually-hidden">Рекомендации для туристов</h2>
        <ul class="recommendation-list style-list">
-        <li class="recommendation-item-housing item-color">
+        <li class="recommendation-item-housing item-color item-parameters">
          <h3 class="recommendation-title title-block">Жильё</h3>
          <p class="recommendation-description description-block">Рекомендуем пожить в настоящем мотеле,всё как в кино!</p>
         </li>
-        <li class="recommendation-item-food">
+        <li class="recommendation-item-food item-parameters">
          <h3 class="recommendation-title title-block">Еда</h3>
          <p class="recommendation-description description-block">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
         </li>
-        <li class="recommendation-item-souvenirs item-color">
+        <li class="recommendation-item-souvenirs item-color item-parameters">
          <h3 class="recommendation-title title-block">Сувениры</h3>
          <p class="recommendation-description description-block">Не только китайского,но и настоящего местного производства!</p>
         </li>
@@ -83,28 +85,28 @@
      </section>
            
      <section class="attraction">
+      <img src="images/photo/photo-2.jpg" width="800" height="384" alt="Мост в горах" class="photo-Sedona">
       <div class="attraction-main main-block">
        <h2 class="attraction-title title-block">Там есть мост дьявола</h2>
        <p class="number-reason description-block">— №2 —</p>
        <p class="attraction-description description-block">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
       </div>
-      <img src="images/photo/photo-2.jpg" width="800" height="384" alt="Мост в горах" class="photo-Sedona">
      </section>
 
      <section class="advantages">
       <h2 class="visually-hidden">Преимущества города</h2>
        <ul class="advantages-list style-list">
-        <li class="advantages-item-area item-color">
+        <li class="advantages-item-area item-color item-parameters">
          <h3 class="advantages-title title-block">Небольшая площадь</h3>
          <p class="number-reason description-block">— №3 —</p>
          <p class="advantages-description description-block">Все достопримечательности находятся очень близко</p>
         </li>
-        <li class="advantages-item-road">
+        <li class="advantages-item-road item-parameters">
          <h3 class="advantages-title title-block">Красивая дорога</h3>
          <p class="number-reason description-block">— №4 —</p>
          <p class="advantages-description description-block">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
         </li>
-        <li class="advantages-item-few-tourists item-color">
+        <li class="advantages-item-few-tourists item-color item-parameters">
          <h3 class="advantages-title title-block">Мало туристов</h3>
          <p class="number-reason description-block">— №5 —</p>
          <p class="advantages-description description-block">Большинство едет в Гранд Каньон и толпится там</p>
@@ -118,9 +120,12 @@
        <p class="finding-hotel-description">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
        <button class="button-finding-hotel" type="button">ПОИСК ГОСТИНИЦЫ В CЕДОНЕ</button>
      </section>
+    </div> 
    </main>
 
    <footer class="page-footer">
+
+    <div class="page-footer-container">
 
     <section class="newsletter-main">
      <h2 class="visually-hidden">Рассылка полезной информации</h2>
@@ -133,6 +138,8 @@
        </button>
       </form>
     </section>
+
+    <div class="footer-navigation">
 
     <section class="footer-social">
      <h2 class="visually-hidden">Социальные сети</h2>
@@ -166,6 +173,10 @@
       <img src="images/logo_htmlacademy.svg" width="115" height="33" alt="Логотип htmlacademy">
      </a>
     </section>
+
+    </div>
+
+    </div>
 
   </footer>
     
