@@ -7,6 +7,9 @@
    <base href="https://htmlacademy-htmlcss.github.io/1982679-sedona-33/6/">
 </head>
   <body>
+
+   <div class="wrapper">
+
    <header class="page-header">
 
     <nav class="navigation">
@@ -26,9 +29,10 @@
      </ul>
      <ul class="navigation-list navigation-user style-list">
       <li class="navigation-item">
-       <a class="navigation-link" href="#">
-        <span class="visually-hidden">Поиск</span>
-       </a>
+       <form action="#" method="get">
+        <input type="text" name="search">
+        <button type="submit"></button>
+       </form>
       </li>
       <li class="navigation-item">
        <a class="navigation-link" href="#">
@@ -44,8 +48,6 @@
    </header>
 
    <main class="main-index main-container">
-
-    <div class="page-container">
 
      <section class="slogan">
       <h1 class="visually-hidden">Городок Седона</h1>
@@ -121,26 +123,24 @@
        <p class="finding-hotel-description">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
        <button class="button-finding-hotel" type="button">ПОИСК ГОСТИНИЦЫ В CЕДОНЕ</button>
      </section>
-    </div> 
+
+     <section class="newsletter-main">
+      <h2 class="visually-hidden">Рассылка полезной информации</h2>
+       <p class="newsletter-title title-section">Подпишитесь на рассылку</p>
+       <p class="newsletter-description">Только полезная информация и никакого спама,честное бойскаутское!</p>
+       <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+        <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+        <button class="button newsletter-button" type="submit">
+         <span class="newsletter-subscription">Подписаться</span>
+        </button>
+       </form>
+     </section>
+
    </main>
 
    <footer class="page-footer">
 
     <div class="page-footer-container">
-
-    <section class="newsletter-main">
-     <h2 class="visually-hidden">Рассылка полезной информации</h2>
-      <p class="newsletter-title title-section">Подпишитесь на рассылку</p>
-      <p class="newsletter-description">Только полезная информация и никакого спама,честное бойскаутское!</p>
-      <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-       <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
-       <button class="button newsletter-button" type="submit">
-        <span class="newsletter-subscription">Подписаться</span>
-       </button>
-      </form>
-    </section>
-
-    <div class="footer-navigation">
 
     <section class="footer-social">
      <h2 class="visually-hidden">Социальные сети</h2>
@@ -177,9 +177,9 @@
 
     </div>
 
-    </div>
+   </footer>
 
-  </footer>
+   </div>
     
   </body>
 
