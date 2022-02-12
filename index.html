@@ -28,10 +28,9 @@
      </ul>
      <ul class="navigation-list navigation-user style-list">
       <li class="navigation-item">
-       <form action="#" method="get">
-        <input type="text" name="search">
-        <button type="submit"></button>
-       </form>
+        <a class="navigation-link" href="#" target="_blank">
+          <span class="visually-hidden">Поиск</span>
+        </a>
       </li>
       <li class="navigation-item">
        <a class="navigation-link" href="#">
@@ -56,13 +55,13 @@
      <section class="description">
       <h2 class="visually-hidden">Описание города</h2>
       <p class="title-section">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
-      <p class="description-reason">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+      <p class="description-reason description-section">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
      </section>
 
      <section class="real-town">
       <div class="real-town-main main-block">
        <h2 class="real-town-title title-block">Настоящий городок</h2>
-       <p class="number-reason description-block">— №1 —</p>
+       <p class="number-reason ">— №1 —</p>
        <p class="real-town-description description-block">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
       </div>
       <img src="images/photo/photo-1.jpg" width="800" height="384" alt="Дом на фоне гор" class="photo-Sedona">
@@ -71,16 +70,16 @@
      <section class="recommendation">
       <h2 class="visually-hidden">Рекомендации для туристов</h2>
        <ul class="recommendation-list style-list">
-        <li class="recommendation-item-housing item-color item-parameters">
-         <h3 class="recommendation-title title-block">Жильё</h3>
+        <li class="recommendation-item item-color item-parameters">
+         <h3 class="recommendation-title">Жильё</h3>
          <p class="recommendation-description description-block">Рекомендуем пожить в настоящем мотеле,всё как в кино!</p>
         </li>
-        <li class="recommendation-item-food item-parameters">
-         <h3 class="recommendation-title title-block">Еда</h3>
+        <li class="recommendation-item item-parameters">
+         <h3 class="recommendation-title">Еда</h3>
          <p class="recommendation-description description-block">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
         </li>
-        <li class="recommendation-item-souvenirs item-color item-parameters">
-         <h3 class="recommendation-title title-block">Сувениры</h3>
+        <li class="recommendation-item item-color item-parameters">
+         <h3 class="recommendation-title">Сувениры</h3>
          <p class="recommendation-description description-block">Не только китайского,но и настоящего местного производства!</p>
         </li>
        </ul>
@@ -90,7 +89,7 @@
       <img src="images/photo/photo-2.jpg" width="800" height="384" alt="Мост в горах" class="photo-Sedona">
       <div class="attraction-main main-block">
        <h2 class="attraction-title title-block">Там есть мост дьявола</h2>
-       <p class="number-reason description-block">— №2 —</p>
+       <p class="number-reason">— №2 —</p>
        <p class="attraction-description description-block">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
       </div>
      </section>
@@ -100,17 +99,17 @@
        <ul class="advantages-list style-list">
         <li class="advantages-item-area item-color item-parameters">
          <h3 class="advantages-title title-block">Небольшая площадь</h3>
-         <p class="number-reason description-block">— №3 —</p>
+         <p class="number-reason">— №3 —</p>
          <p class="advantages-description description-block">Все достопримечательности находятся очень близко</p>
         </li>
         <li class="advantages-item-road item-parameters">
          <h3 class="advantages-title title-block">Красивая дорога</h3>
-         <p class="number-reason description-block">— №4 —</p>
+         <p class="number-reason">— №4 —</p>
          <p class="advantages-description description-block">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
         </li>
         <li class="advantages-item-few-tourists item-color item-parameters">
          <h3 class="advantages-title title-block">Мало туристов</h3>
-         <p class="number-reason description-block">— №5 —</p>
+         <p class="number-reason">— №5 —</p>
          <p class="advantages-description description-block">Большинство едет в Гранд Каньон и толпится там</p>
         </li>      
         </ul>
@@ -119,21 +118,27 @@
      <section class="finding-hotel">
       <h2 class="visually-hidden">Поиск гостиницы</h2>
        <p class="finding-hotel-title title-section">Заинтересовались?</p>
-       <p class="finding-hotel-description">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+       <p class="finding-hotel-description description-section">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
        <button class="button-finding-hotel" type="button">ПОИСК ГОСТИНИЦЫ В CЕДОНЕ</button>
      </section>
 
      <section class="newsletter-main">
       <h2 class="visually-hidden">Рассылка полезной информации</h2>
+
        <p class="newsletter-title title-section">Подпишитесь на рассылку</p>
-       <p class="newsletter-description">Только полезная информация и никакого спама,честное бойскаутское!</p>
+       <p class="newsletter-description description-section">Только полезная информация и никакого спама,честное бойскаутское!</p>
+       
        <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
         <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
         <button class="button newsletter-button" type="submit">
          <span class="newsletter-subscription">Подписаться</span>
         </button>
        </form>
+
+
      </section>
+
+     </div>
 
    </main>
 
