@@ -14,8 +14,8 @@
   font-display: swap;
 }
 
-html  {
-height: 100%;
+html {
+  height: 100%;
 }
 
 body {
@@ -48,7 +48,7 @@ body {
 
   white-space: nowrap;
   -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -67,7 +67,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
- 
+
   width: 460px;
   margin: 0;
   padding: 0;
@@ -86,7 +86,7 @@ body {
 .navigation-link {
   display: block;
   padding: 20px 17px;
-  
+
   line-height: 26px;
   font-weight: 700;
   font-size: 20px;
@@ -107,25 +107,29 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
-  
+
   background-color: #756257;
 }
 
 .main-container {
- flex-grow: 1;
+  flex-grow: 1;
 }
 
 .slogan {
-  padding-top: 50px;
+  padding-top: 51px;
   padding-bottom: 82px;
 
   background-color: #333333;
   background-image: url("/images/background/decor-background.svg"), url("/images/background/index-background.jpg");
-  background-size: 100% auto, 100% auto;
+  background-size: 100% 58px, 100% auto;
   background-position: center bottom, center bottom;
   background-repeat: no-repeat, no-repeat;
 
   text-align: center;
+}
+
+.slogan-Sedona {
+  vertical-align: middle;
 }
 
 .description {
@@ -270,7 +274,7 @@ body {
   margin-bottom: 88px;
 }
 
-.advantages .description-block  {
+.advantages .description-block {
   margin-left: 75px;
   margin-right: 75px;
   margin-top: 0;
@@ -367,7 +371,7 @@ body {
   font-size: 18px;
   line-height: 26px;
   color: #000000;
- 
+
   background-color: #F2F2F2;
 }
 
@@ -480,7 +484,7 @@ body {
 .slider {
   position: absolute;
 
-  
+
   width: 287px;
   height: 5px;
 
@@ -517,7 +521,7 @@ body {
   appearance: none;
   cursor: pointer;
   pointer-events: all;
-  
+
   background: #FFFFFF;
 }
 
@@ -528,7 +532,7 @@ body {
   width: 20px;
   height: 20px;
   width: 9px;
-  
+
   cursor: pointer;
   pointer-events: all;
   -moz-appearance: none;
@@ -557,7 +561,7 @@ body {
 
 .button-apply {
   border-radius: 4px;
-  
+
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
@@ -652,11 +656,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 
   font-size: 16px;
   line-height: 21px;
@@ -696,11 +700,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 
   font-weight: 700;
   font-size: 20px;
@@ -713,7 +717,7 @@ body {
 
 .number-card {
   border-radius: 4px;
-  
+
   font-size: 18px;
   line-height: 23px;
 
@@ -734,6 +738,3 @@ body {
 .style-list {
   list-style: none;
 }
-
-
-
