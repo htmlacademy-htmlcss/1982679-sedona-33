@@ -69,6 +69,7 @@ body {
 
 .navigation-list {
   display: flex;
+  width: 470px;
   flex-wrap: wrap;
   align-items: center;
 
@@ -714,11 +715,6 @@ body {
   background-color: transparent;
 }
 
-.select-control {
-  font-size: 18px;
-  line-height: 23px;
-}
-
 .sorting {
   display: flex;
   margin-top: 0;
@@ -737,13 +733,7 @@ body {
 }
 
 .select-control {
-  box-sizing: border-box;
-  border: 2px solid #E5E5E5;
-  border-radius: 4px;
-  margin-right: 81px;
-
-  width: 287px;
-  height: 48px;
+  margin-right: 51px;
 
   font-size: 18px;
   line-height: 23px;
@@ -996,12 +986,12 @@ body {
 .number-card-hotels {
   width: 160px;
   height: 48px;
+  align-content: center;
+  border: 2px solid #E6E6E6;
   border-radius: 4px;
-
+  
   font-size: 18px;
   line-height: 23px;
-
-  background-color: #E5E5E5;
 }
 
 .newsletter-catalog-description {
