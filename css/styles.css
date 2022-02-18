@@ -63,8 +63,13 @@ body {
   margin-right: 30px;
 }
 
+.page-header-logo {
+  display: block;
+}
+
 .navigation-list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 
 
@@ -794,6 +799,7 @@ body {
 }
 
 .hotel-card-image {
+  display: block;
   margin: 0;
   margin-bottom: 16px;
 }
