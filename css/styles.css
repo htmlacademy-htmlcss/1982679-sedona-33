@@ -137,37 +137,13 @@ body {
 }
 
 .button-navigation {
-  display: inline-block;
   border: 2px solid #756257;
-  border-radius: 4px;
   margin-left: 25px;
 
   width: 156px;
   height: 34px;
 
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
-
   background-color: #756257;
-
-  cursor: pointer;
-}
-
-.button-navigation:hover{
-  background-color: #615048;
-}
-
-.button-navigation:focus {
-  border-color: #83B3D3;
-}
-
-.button-navigation:active {
-  color: rgba(255, 255, 255, 0.3); 
 }
 
 .main-container {
@@ -414,18 +390,6 @@ body {
   cursor: pointer;
 }
 
-.button-finding-hotel:hover {
-  background-color: #615048;
-}
-
-.button-finding-hotel:focus {
-  border-color:  #83B3D3;
-}
-
-.button-finding-hotel:active {
-  color: rgba(255, 255, 255, 0.3);
-}
-
 .finding-hotel-description {
   margin-top: 0;
   margin-bottom: 56px;
@@ -505,19 +469,6 @@ body {
   background-color: #83B3D3;
 
   cursor: pointer;
-}
-
-.newsletter-button:hover {
-  background-color: #68A2CA;
-  border-color: #68A2CA;
-}
-
-.newsletter-button:focus {
-  border-color: #756257;
-}
-
-.newsletter-button:active .newsletter-subscription{
-  opacity: 30%;
 }
 
 .page-footer {
@@ -1003,30 +954,17 @@ body {
 }
 
 .button-apply {
-  display: inline-block;
   margin-top: 60px;
   margin-bottom: 15px;
   margin-left: 7px;
   padding: 0;
-  border-radius: 4px;
   border: 0;
   align-items: center;
 
   width: 160px;
   height: 48px;
 
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 21px;
-  color: #FFFFFF;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-
   background-color: #83B3D3;
-
-  cursor: pointer;
 }
 
 .button-apply:hover {
@@ -1147,8 +1085,8 @@ body {
 }
 
 .button-sorting {
-  position: relative;
   display: inline-block;
+  position: relative;
   box-sizing: border-box;
   border: 2px solid #E6E6E6;
   border-radius: 4px;
@@ -1289,19 +1227,8 @@ body {
 }
 
 .card-button {
-  display: inline-block;
   padding-top: 5px;
   padding-bottom: 5px;
-  border-radius: 4px;
-  
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 21px;
-  text-align: center;
-  color: #FFFFFF;
-  text-decoration: none;
-  text-transform: uppercase;
 
   background-color: #756257;
 }
@@ -1312,36 +1239,10 @@ body {
   margin-right: 26px;
 }
 
-.detail:hover {
-  background-color: #615048;
-  border-color: #615048;
-}
-
-.detail:focus {
-  border: 3px solid #83B3D3;
-}
-
-.detail:active {
-  opacity: 30%;
-}
-
 .select {
   flex-grow: 1;
   border: 3px solid #83B3D3;
   background-color: #83B3D3;
-}
-
-.select:hover {
-  background-color: #68A2CA;
-  border-color: #68A2CA;
-}
-
-.select:focus {
-  border: 3px solid #756257;
-}
-
-.select:active {
-  opacity: 30%;
 }
 
 .chosen {
@@ -1434,19 +1335,6 @@ body {
   cursor: pointer;
 }
 
-.button-pagination-show-more:hover {
-  background-color: #68A2CA;
-  border-color: #68A2CA;
-}
-
-.button-pagination-show-more:focus {
-  border: 3px solid #756257;
-}
-
-.button-pagination-show-more:active {
-  opacity: 30%;
-}
-
 .pagination-link {
   display: flex;
   align-items: center;
@@ -1464,20 +1352,6 @@ body {
   text-decoration: none;
 
   background-color: #83B3D3;
-}
-
-.pagination-link:hover {
-  border-color: #68A2CA;
-
-  background-color: #68A2CA;
-}
-
-.pagination-link:focus {
-  border: 3px solid #756257
-}
-
-.pagination-link:active {
-  opacity: 30%;
 }
 
 .pagination-current {
@@ -1705,5 +1579,46 @@ body {
   margin: 0;
 }
 
+.button {
+  display: inline-block;
+  border-radius: 4px;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  cursor: pointer;
+}
+
+.behavior:focus {
+  border-color: #83B3D3;
+}
+
+.behavior:hover {
+  background-color: #615048;
+  border-color: #615048;
+}
+
+.behavior:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.conduct:focus {
+  border: 3px solid #756257;
+}
+
+.conduct:hover {
+  background-color: #68A2CA;
+  border-color: #68A2CA;
+}
+
+.conduct:active {
+  opacity: 30%;
+}
 
 
