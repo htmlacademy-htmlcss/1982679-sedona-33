@@ -167,13 +167,13 @@
         <p class="newsletter-description description-section">Только полезная информация и никакого спама, честное
           бойскаутское!</p>
 
-        <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-          <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email"
-            required>
-          <button class="button newsletter-button" type="submit">
-            <span class="newsletter-subscription">Подписаться</span>
-          </button>
-        </form>
+          <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+            <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email"
+              required>
+            <button class="button newsletter-button" type="submit">
+              <span class="newsletter-subscription">Подписаться</span>
+            </button>
+          </form>
 
 
       </section>
@@ -254,6 +254,49 @@
     </footer>
 
   </div>
+  
+  <div class="modal-container modal-container-close">
+    <div class="modal modal-auth">
+      <button class="modal-close-button">
+        <span class="visually-hidden">Закрыть</span>
+      </button>
+      <section class="modal-content">
+        <h2 class="modal-title">Пoиск гостиницы в Седоне</h2>
+
+        <form class="modal-form" action="https://echo.htmlacademy.ru/" method="post">
+          <p class="appointment-form-date">
+            <label class="form-label check" for="appointment-date">
+              Дата заезда:
+              <input class="check-date check-in" type="text" id="appointment-date-in" name="appointment-date-in" placeholder="27 апреля 2020">
+              <span class="comments-check-in">Мы не можем отправить вас в прошлое.</span>
+            </label>
+          </p> 
+          <p class="appointment-form-date">
+            <label class="form-label check" for="appointment-date">
+              Дата выезда:
+              <input class="check-date check-out" type="text" id="appointment-date-out" name="appointment-date-out" placeholder="1 сентября 2021">
+              <span class="comments-check-out">На эти даты есть свободные номера. Пока есть.</span>
+            </label>
+          </p> 
+          <div class="amount"> 
+            <p class="appointment-form-amount">
+              <label class="form-label grown" for="appointment-grown">
+                Взрослые:
+              <input class="check-number" type="text" id="appointment-grown" name="appointment-grown" placeholder="2">
+              </label>
+            </p>
+            <p class="appointment-form-amount">
+              <label class="form-label children" for="appointment-children">
+                Дети:
+              <input class="check-number-children" type="text" id="appointment-children" name="appointment-children" placeholder="1">
+              </label>
+            </p>
+          </div>  
+        </form>
+      </section>
+    </div>
+  </div>
+  
 </body>
 
 </html>
